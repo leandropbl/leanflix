@@ -1,0 +1,85 @@
+body{
+    color:darkslategray;
+     background-color: black;
+     margin: 10px;
+     font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+      border-bottom: solid 5px;
+    padding: 25px;
+    font-size: 30px;
+    color:rgb(105, 105, 105)
+}
+ 
+.chamada {
+
+      background: darkgrey;
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: center;
+
+}
+
+ .chamada-texto {
+
+     margin-right: 5%;
+
+ }
+
+ h1 {
+      font-size: 40px;
+
+ }
+
+ p {
+     font-size: 25px;
+
+
+}
+ img {
+
+     height: 150px;
+
+ }
+ 
+  .categoria-video {
+
+      display: flex;
+     overflow-x: auto;
+     gap: 15px; 
+  }
+
+ .categoria {
+
+       padding-left: 20px;
+       padding: 20px;
+       margin-top: 50px;
+
+ }
+
+ .categoria-video img {
+
+     opacity: 0,5;
+     height: 200px;
+
+ }
+
+ .categoria-video img:hover {
+
+     opacity: 1,0;
+      border: 3px solid rgb(105, 105, 105);
+ }
+
+ .categoria h2 {
+
+         color:black
+ }
+
+
+
+
+
+
+
